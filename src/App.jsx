@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
+import ContactForm from "./Components/Contact-form";
 
 function App() {
   // ✅ State variables must be declared at the top level of the component
@@ -92,6 +93,7 @@ function App() {
         />
         <button type="submit">Submit</button>
       </form>
+      <ContactForm />
     </>
   );
 }
